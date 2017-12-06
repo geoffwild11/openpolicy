@@ -7,6 +7,9 @@ Geoff Wild
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* Variables */
+//$light-gray: #777;
+
 /* Universal */
 body {
   padding: 60px;
@@ -47,7 +50,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: $gray-light;
 }
 
 p {
@@ -69,5 +72,34 @@ p {
   :hover {
     color: #fff;
     text-decoration: none;
+  }
+}
+
+/* Footer */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: $gray-light;
+  a {
+    color: #555;
+    
+    :hover {
+      color: #222;
+    }
+  }
+  
+  small {
+    float:left
+  }
+  
+  ul {
+    float: right; 
+    list-style: none;
+    
+    li {
+      float: left;
+      margin-left: 15px;  
+    }
   }
 }
