@@ -119,3 +119,14 @@ footer {
   margin-top: 45px;
   @include box_sizing;
 }
+
+/* Gravatar */
+
+.gravatar {
+  float: left;
+  margin-right: 10px;
+  border-radius: 50%;
+  border-width: thin;
+  border-color: #333;
+  border-style: solid;
+}
